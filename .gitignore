@@ -1,0 +1,64 @@
+# --- Data ---
+# Raw and processed Jigsaw data should not be committed - redownload via Kaggle API
+data/
+
+# --- Model checkpoints ---
+# Transformer Model checkpoints are large and reproducible from notebooks/03_transformer_model.ipynb
+checkpoints/
+*.pt
+*.pth
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Environment / secrets ---
+.env
+.env.*
+*.pem
+kaggle.json
+
+# --- Tableau ---
+# Local extract/cache files - the .twbx workbook itself is the committed deliverable
+*.hyper
+*.tde
+Tableau Repository/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
+
+# --- Internal planning docs (not part of the public deliverable) ---
+CONTEXT.md
+DATA_DICTIONARY.md
+PROJECT_PLAN.md
+research/
