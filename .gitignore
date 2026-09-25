@@ -58,8 +58,5 @@ Thumbs.db
 *.log
 
 # --- Internal planning docs (not part of the public deliverable) ---
-CONTEXT.md
-DATA_DICTIONARY.md
-PROJECT_PLAN.md
-research/
-CLAUDE.md
+# Lives in its own private git repo at private/ - see private/README.md
+private/
