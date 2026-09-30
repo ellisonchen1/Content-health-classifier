@@ -60,3 +60,7 @@ Thumbs.db
 # --- Internal planning docs (not part of the public deliverable) ---
 # Lives in its own private git repo at private/ - see private/README.md
 private/
+
+# Local agent instructions
+/CLAUDE.md
+/AGENTS.md
